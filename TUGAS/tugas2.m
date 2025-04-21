@@ -1,6 +1,6 @@
-%Nama = Johannes Bagus Pramindra
-%NIM = 66202302
-%username = bagusprime
+%Nama : Johannes Bagus Pramindra
+%NIM : 66202302
+%username : bagusprime
 
 nilai = input('Masukkan nilai Anda: ');
 
