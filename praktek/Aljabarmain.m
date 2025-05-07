@@ -5,7 +5,7 @@ f = inline('x^2 - 3', 'x');
 X = [1 2];
 
 % Panggil fungsi BagiDua
-[x, galat] = bagidua(f, X);
+[x, galat] = posisipalsu(f, X);
 
 %panggil fungsi PosisiPalsu
 %[x, galat] = PosisiPalsu(f, X);
