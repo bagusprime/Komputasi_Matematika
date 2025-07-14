@@ -3,7 +3,7 @@ function output = forward_propagation(X)
 sigmoid = @(z) 1./ (1 + exp(-z));
 relu = @(z) max(0,z);
 % input (X harus vektor kolom 2x1)
-% contoh: X = (0.5 ; 0.2);
+% contoh: iX = (0.5 ; 0.2);
 % Inisialiaai bobot dan bias
 W1 = [0.1, 0.3;
     0.4,0.2];   % ukuran 2x2
